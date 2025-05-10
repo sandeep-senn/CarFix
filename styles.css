@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #1e1e2f, #28293d); /* Gradient Background */
+    color: #fff;
+    text-align: center;
+}
+
+/* ✅ Navbar */
+.navbar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: rgba(255, 255, 255, 0.1); /* Glass Effect */
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.nav-links a:hover {
+    color: #ff6b6b;
+}
+.contact-btn {
+    background: #df4d4d;
+    padding: 8px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+.contact-btn:hover {
+    background: #4082d3;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh; 
+    width: 100%; 
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2rem;
+    width: 50%; 
+}
+.header .cta-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+.highlight-reliable {
+    color: #ff5733; /* Yellow */
+    font-weight: bold;
+}
+
+.highlight-appliance {
+    color: #ff5733; /* Orange-Red */
+    font-weight: bold;
+}
+
+/* ✅ Hero Section */
+.hero-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+.hero-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero-section h1 span {
+    color: #ff6b6b;
+}
+.hero-section p {
+    font-size: 18px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+.cta-btn {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    background: #ff3b3b;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.cta-btn:hover {
+    background: #ff6b6b;
+}
+/* ✅ About Us Section */
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 10%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    margin: 50px auto;
+}
+.about-content {
+    max-width: 500px;
+}
+.about-content h2 {
+    font-size: 40px;
+    color: #fff;
+}
+.about-content h2 span {
+    color: #ff6b6b;
+}
+.about-content p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.about-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    background: #ff6b6b;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.cta-btn:hover {
+    background: #ff3b3b;
+}
+
+/* ✅ Our Services Section */
+.our-services {
+    text-align: center;
+    padding: 80px 10%;
+}
+.our-services h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+.our-services h2 span {
+    color: #ff6b6b;
+}
+.services-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.service-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.2);
+}
+.service-card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+.service-card h3 {
+    font-size: 22px;
+    color: white;
+}
+.service-card p {
+    font-size: 16px;
+    color: #ddd;
+    margin-top: 10px;
+}
+footer {
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-logo h2 {
+    font-size: 26px;
+    color: #ff6600;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 10px 0;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #ff6600;
+}
+
+.footer-contact p {
+    margin: 8px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-contact i {
+    margin-right: 10px;
+    color: #ff6600;
+}
+
+.footer-social a {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 22px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover {
+    color: #ff6600;
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    align-content: end;
+    margin-top: 0;
+    padding: 10px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+/* Apply to navigation links and section headers */
+.nav-links li a,
+h2 {
+    position: relative;
+    text-decoration: none; 
+    display: inline-block;
+    padding-bottom: 5px; 
+}
+
+/* Create the underline effect */
+.nav-links li a::after,
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 3px; 
+    background-color: #00a6ff;
+    transition: width 0.4s ease-in-out;
+}
+
+/* Hover effect */
+.nav-links li a:hover::after,
+h2:hover::after {
+    width: 100%;
+}
+
+/* Default styling for images */
+.service-card img,
+.about-image img {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Wobble effect on hover */
+.service-card img:hover,
+.about-image img:hover {
+    animation: wobble 0.6s ease-in-out;
+}
+
+/* Keyframes for wobble animation */
+@keyframes wobble {
+    0% { transform: rotate(0deg) scale(1); }
+    25% { transform: rotate(2deg) scale(1.05); }
+    50% { transform: rotate(-2deg) scale(1.05); }
+    75% { transform: rotate(1deg) scale(1.05); }
+    100% { transform: rotate(0deg) scale(1); }
+}
